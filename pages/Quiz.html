@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <link rel="stylesheet" href="/pages/quiz.css">
+    <link rel="stylesheet" href="/css/quiz.css">
 </head>
 <body>
 
@@ -20,51 +20,54 @@
         </div>
         <div class="divinput">
 
-            <div class="question-container">
-                <p class="question">1) The perimeters of two similar triangles ABC and PQR are 60 cm and 36 cm respectively. If PQ = 9 cm, then AB equals</p>
-                <label class="label"><input type="radio" name="1" value="6cm">6cm</label>
-                <label class="label"><input type="radio" name="1" value="10cm">10cm</label>
-                <label class="label"><input type="radio" name="1" value="15cm">15cm</label>
-            </div>
-            
-            <div class="question-container">
-                <p class="question">2) If ΔABC is similar to ΔDEF such that 2 AB = DE and BC = 8 cm then EF is equal to.
-                </p>
-                <label class="label"><input type="radio" name="1" value="12cm">12cm</label>
-                <label class="label"><input type="radio" name="1" value="4cm">4cm</label>
-                <label class="label"><input type="radio" name="1" value="16cm">16cm</label>
-            </div>
-            <div class="question-container">
-                <p class="question">3) In ΔABC, AB = 6 cm and DE || BC such that AE = 14 AC then the length of AD is
+            <form class="quiz-form">
+                <div class="question-container">
+                    <p class="question">1) The perimeters of two similar triangles ABC and PQR are 60 cm and 36 cm respectively. If PQ = 9 cm, then AB equals</p>
+                    <label class="label"><input type="radio" name="1" value="6cm">6cm</label>
+                    <label class="label"><input type="radio" name="1" value="10cm">10cm</label>
+                    <label class="label"><input type="radio" name="1" value="15cm">15cm</label>
+                </div>
+                
+                <div class="question-container">
+                    <p class="question">2) If ΔABC is similar to ΔDEF such that 2 AB = DE and BC = 8 cm then EF is equal to.
+                    </p>
+                    <label class="label"><input type="radio" name="2" value="12cm">12cm</label>
+                    <label class="label"><input type="radio" name="2" value="4cm">4cm</label>
+                    <label class="label"><input type="radio" name="2" value="16cm">16cm</label>
+                </div>
+                <div class="question-container">
+                    <p class="question">3) In ΔABC, AB = 6 cm and DE || BC such that AE = 14 AC then the length of AD is
 
-                </p>
-                <label class="label"><input type="radio" name="1" value="1.2cm">1.2cm</label>
-                <label class="label"><input type="radio" name="1" value="1.5cm">1.5cm</label>
-                <label class="label"><input type="radio" name="1" value="2cm">2cm</label>
-            </div>
-            
-            <div class="question-container">
-                <p class="question">4) ΔABC and ΔBDE are two equilateral triangles such that D is the mid point of BC. Ratio of the areas of triangle ΔABC and ΔBDE is.
+                    </p>
+                    <label class="label"><input type="radio" name="3" value="1.2cm">1.2cm</label>
+                    <label class="label"><input type="radio" name="3" value="1.5cm">1.5cm</label>
+                    <label class="label"><input type="radio" name="3" value="2cm">2cm</label>
+                </div>
+                
+                <div class="question-container">
+                    <p class="question">4) ΔABC and ΔBDE are two equilateral triangles such that D is the mid point of BC. Ratio of the areas of triangle ΔABC and ΔBDE is.
 
-                </p>
-                <label class="label"><input type="radio" name="1" value="4:1">4:1</label>
-                <label class="label"><input type="radio" name="1" value="1:4">1:4</label>
-                <label class="label"><input type="radio" name="1" value="1:2">1:2</label>
-            </div>
-            
-            <div class="question-container">
-                <p class="question">5) If the ratio of the perimeters of two similar triangles is 4 : 25, then the ratio of the areas of the similar triangles is
-                </p>
-                <label class="label"><input type="radio" name="1" value="16:625">16:625</label>
-                <label class="label"><input type="radio" name="1" value="2:5">2:5</label>
-                <label class="label"><input type="radio" name="1" value="5:2">5:2</label>
-            </div>
-            
+                    </p>
+                    <label class="label"><input type="radio" name="4" value="4:1">4:1</label>
+                    <label class="label"><input type="radio" name="4" value="1:4">1:4</label>
+                    <label class="label"><input type="radio" name="4" value="1:2">1:2</label>
+                </div>
+                
+                <div class="question-container">
+                    <p class="question">5) If the ratio of the perimeters of two similar triangles is 4 : 25, then the ratio of the areas of the similar triangles is
+                    </p>
+                    <label class="label"><input type="radio" name="5" value="16:625">16:625</label>
+                    <label class="label"><input type="radio" name="5" value="2:5">2:5</label>
+                    <label class="label"><input type="radio" name="5" value="5:2">5:2</label>
+                </div>
+
+            </form>
+
             <button type="button" class="submit">Submit</button>
         </div>
         
         <div class="output"></div>
     </div>
-    
+<script type="text/javascript" src="/script/quiz.js"></script>
 </body>
 </html>

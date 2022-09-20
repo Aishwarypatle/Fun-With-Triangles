@@ -17,7 +17,6 @@ body{
     background-color: var(--primary-color);
     font-family: 'Reem Kufi Ink', sans-serif;
     padding:2rem;
-    margin-bottom: 1rem;
     text-align:center;
 }
 .home{
@@ -33,7 +32,7 @@ body{
     border-radius:  1rem;
     padding: .8rem;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 a:hover{
     background-color: var(--primary-color);
@@ -47,7 +46,7 @@ a:hover{
 }
 label{
     font-family: 'Montserrat', sans-serif;
-    margin: 1rem;
+    margin: .8rem;
     font-size:large;
     font-weight: bold;
     color: var(--second-color);
@@ -61,7 +60,7 @@ label{
 }
 .submit{
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     width: 100px;;
     height: 2rem;
     background-color: var(--first-color);
@@ -77,12 +76,15 @@ button:hover{
     border: .2rem solid var(--second-color); 
 
 }
+.label{
+    font-size: small;
+}
 .output{
     font-family: 'Montserrat', sans-serif;
     color: var(--second-color);
     text-align: center;
     font-weight: bolder;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: larger;
 
 }
